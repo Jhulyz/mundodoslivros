@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Mundo dos livros</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Resenhas</a></li>
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="pedidos.html">Pedidos</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="comments-section">
+        <h2>De qual livro você deseja uma resenha?</h2>
+        <form class="comment-form">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="comment">Nome do livro:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+      
+          <button type="submit">Enviar Comentário</button>
+        </form>
+      
+        <div class="comments-list">
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 O mundo dos livros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
